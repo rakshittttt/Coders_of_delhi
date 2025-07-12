@@ -36,15 +36,6 @@ Built solo for a hackathon, this project showcases:
 
 ---
 
-## 💻 Screenshots & GIFs
-
-| 🧠 Friend Suggestion | 💡 Page Recommendation | 🧹 Data Cleaning |
-|----------------------|------------------------|------------------|
-| ![Friend GIF](assets/friends.gif) | ![Page GIF](assets/pages.gif) | ![Cleaning GIF](assets/cleaning.gif) |
-
-> Replace these with your screen recordings in the `assets/` folder
-
----
 
 ## 🛠️ How It Works
 
