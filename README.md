@@ -1,7 +1,7 @@
 <h1 align="center">🔗 PeopleGraph: Intelligent Social Network Suggestions</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/solo-hackathon-blue.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/solo-project-blue.svg?style=for-the-badge" />
   <img src="https://img.shields.io/badge/built%20with-python-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/powered%20by-json%20data-green?style=for-the-badge" />
 </p>
