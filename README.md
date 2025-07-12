@@ -1,44 +1,60 @@
-<h1 align="center">🚀 Coders of Delhi</h1>
+<h1 align="center">🔗 PeopleGraph: Intelligent Social Network Suggestions</h1>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Notebook-blueviolet?style=flat-square" />
-  <img src="https://img.shields.io/github/languages/top/rakshittttt/Coders_of_delhi?style=flat-square" />
-  <img src="https://img.shields.io/github/last-commit/rakshittttt/Coders_of_delhi?style=flat-square" />
+  <img src="https://img.shields.io/badge/solo-hackathon-blue.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/built%20with-python-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/powered%20by-json%20data-green?style=for-the-badge" />
 </p>
 
 ---
 
-### 📌 Overview
-
-Welcome to **Coders of Delhi** — a powerful and simple data notebook for parsing structured data using Python.
-
 <div align="center">
-  <img src="assets/preview.gif" alt="Notebook Preview" width="600"/>
-  <br/><sub><i>✨ A sneak peek of the notebook in action</i></sub>
+  <img src="assets/overview.gif" width="700" alt="demo gif">
+  <p><i>📊 Analyzing real-world connections like a pro.</i></p>
 </div>
 
 ---
 
-### 🧠 Features
+## 📌 What Is PeopleGraph?
 
-- 🛠️ Python code to handle structured data (like JSON)
-- 🔁 Easy to customize and extend
-- 🧪 Perfect for quick data testing
+> **PeopleGraph** is a lightweight but powerful recommendation engine that mimics social platform intelligence like Facebook's "People You May Know" and "Pages You Might Like" — all using structured `JSON` data.
+
+Built solo for a hackathon, this project showcases:
+- 🧠 Smart friend & page suggestions based on mutual connections
+- 🧹 Data cleaning and validation of user/page data
+- 🧪 Real-time testing with custom user IDs
 
 ---
 
-### ⚙️ How to Use
+## 🎯 Features
 
-```bash
-# Clone the repository
-git clone https://github.com/rakshittttt/Coders_of_delhi.git
-cd Coders_of_delhi
+✅ Recommends new friends using mutual connections  
+✅ Suggests relevant pages based on peer interests  
+✅ Cleans duplicate and inactive users  
+✅ Modular functions for easy extension  
+✅ Built 100% in Python — no external frameworks needed!
 
-# Optional: Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+---
 
-# Install required tools
-pip install notebook
+## 💻 Screenshots & GIFs
 
-# Launch Jupyter
-jupyter notebook
+| 🧠 Friend Suggestion | 💡 Page Recommendation | 🧹 Data Cleaning |
+|----------------------|------------------------|------------------|
+| ![Friend GIF](assets/friends.gif) | ![Page GIF](assets/pages.gif) | ![Cleaning GIF](assets/cleaning.gif) |
+
+> Replace these with your screen recordings in the `assets/` folder
+
+---
+
+## 🛠️ How It Works
+
+```python
+# Load Data
+data = load_data("massive_data.json")
+
+# Recommend People
+people_you_may_know(user_id=1, data=data)
+
+# Recommend Pages
+pages_you_might_like(user_id=1, data=data)
+
