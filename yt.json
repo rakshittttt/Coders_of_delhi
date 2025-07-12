@@ -1,0 +1,14 @@
+{
+    "users": [
+        {"id": 1, "name": "Amit", "each_other": [2, 3], "likes": [1000], "videos":1, "subscribers":1000},
+        {"id": 2, "name": "Priya", "each_other": [1, 4], "likes": [2000], "videos":1 , "subscribers":1500},
+        {"id": 3, "name": "Rahul", "each_other": [1], "likes": [4000, 5000], "videos":2 , "subscribers":500},
+        {"id": 4, "name": "Sara", "each_other": [2], "likes": [7000], "videos":1 ,"subscribers":50}
+    ],
+    "pages": [
+        {"channel_id": 101, "channel_name": "Python Developers", "holder_name": "Amit"},
+        {"channel_id": 102, "channel_name": "Data Science Enthusiasts", "holder_name": "Priya"},
+        {"channel_id": 103, "channel_name": "AI & ML Community", "holder_name": "Rahul"},
+        {"channel_id": 104, "channel_name": "Web Dev Hub", "holder_name": "Sara"}
+    ]
+}
